@@ -24,7 +24,7 @@
 				<div class="container-fluid col-md-10 col-md-offset-1">
 					<div class="navbar-header">
 					<!-- Brand and toggle get grouped for better mobile display -->
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#percolate-navbar-collapse" aria-expanded="false">
 			        <span class="sr-only">Navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -36,7 +36,7 @@
 			    </div>
 
 		      <!-- Collect the nav links, forms, and other content for toggling -->
-				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <div class="collapse navbar-collapse" id="percolate-navbar-collapse">
 				    <ul class="nav navbar-nav " id="primary-nav">
 				      <li><a href="#">Platform</a></li>
 				      <li><a href="#">Services</a></li>
@@ -87,7 +87,7 @@
 				<div class="case-study-container container col-md-10 col-md-offset-1">
 				<h1>Results</h1>
 				<hr />
-					<div class="testimonial">
+					<div class="testimonial row">
 						<div class="quote-body">
 							“We utilize topics to ensure that our content is diverse and address the goals of our organization. This is essential when providing internal partners with metrics that speak to their initiatives and to ensure that we are adequately representing all of our products.”
 						</div>
@@ -97,7 +97,8 @@
 						</div>
 					</div>
 
-						<div class="case-study-section col-md-4 col-xs-6 "> <!-- start of case study section -->
+					<div class="row">
+		        <div class="case-study-section col-md-4 col-sm-6 col-xs-12"> <!-- start of case study section -->
 							<img src="http://assets.dwell.com/sites/default/files/2014/05/13/shinola-detroit-factory_leather_2-rectangle.jpg" alt="">
 							<h3>Voice</h3>
 							<div class="copy">
@@ -105,31 +106,31 @@
 							</div>
 						</div>
 
-						<div class="case-study-section col-md-4 col-xs-6">
+						<div class="case-study-section col-md-4 col-sm-6 col-xs-12">
 							<img src="http://blogs-images.forbes.com/elizabethdoerr/files/2015/06/Shinola_Detroit_Store_Images1_Page_03-1940x1293.jpg" alt="">
 							<h3>Look</h3>
 							<div class="copy">
 								<p>Iconic style heritage brand outerwear collection lightweight showerproof material full zip fastening adjustable sleeves. Pocket detail to sides jacquard fabric fully lined notch lapel three-button cuffs contrast stitching classic colar.</p>
 							</div>
 						</div>
-
-						<div class="case-study-section col-md-4 col-xs-6">
+<div class="clearfix visible-md"></div>
+						<div class="case-study-section col-md-4 col-sm-6 col-xs-12">
 							<img src="http://blog.haberdashmen.com/wp-content/uploads/2014/05/Shinola-3.jpg" alt="">
 							<h3>Savings</h3>
 							<div class="copy">
 								<p>Iconic style heritage brand outerwear collection lightweight showerproof material full zip fastening adjustable sleeves. Pocket detail to sides jacquard fabric fully lined notch lapel three-button cuffs contrast stitching classic colar.</p>
 							</div>
 						</div>
-
-						<div class="case-study-section col-md-4 col-xs-6">
+						
+						<div class="case-study-section col-md-4 col-sm-6 col-xs-12">
 							<img src="http://g.fastcompany.net/multisite_files/codesign/poster/2012/11/1671171-poster-1280-12-10-10-shinola-watchfactorydetroit-9088-ret.jpg" alt="">
 							<h3>Success</h3>
 							<div class="copy">
 								<p>Iconic style heritage brand outerwear collection lightweight showerproof material full zip fastening adjustable sleeves. Pocket detail to sides jacquard fabric fully lined notch lapel three-button cuffs contrast stitching classic colar.</p>
 							</div>
 						</div>
-
-						<div class="case-study-section col-md-4 col-xs-6">
+<div class="clearfix visible-md"></div>
+						<div class="case-study-section col-md-4 col-sm-6 col-xs-12">
 							<img src="https://hodinkee-2.imgix.net/uploads/block/inline_image/content_image/1928/Shinola_8.jpg?ixlib=rb-0.3.4&w=580&crop=faces&fit=crop&dpr=2&s=56c0c33142a1421ac84fbc72ad071203" alt="">
 							<h3>Photo Procurement</h3>
 							<div class="copy">
@@ -137,14 +138,14 @@
 							</div>
 						</div>
 
-						<div class="case-study-section col-md-4 col-xs-6">
+						<div class="case-study-section col-md-4 col-sm-6 col-xs-12">
 							<img src="http://distinctlife.com/wp/wp-content/uploads/2014/03/DSC01309.jpg" alt="">
 							<h3>Engagement</h3>
 							<div class="copy">
 								<p>Iconic style heritage brand outerwear collection lightweight showerproof material full zip fastening adjustable sleeves. Pocket detail to sides jacquard fabric fully lined notch lapel three-button cuffs contrast stitching classic colar.</p>
 							</div>
 						</div> 
-
+					</div>
 				</div>
 
 				<div class="quote-container shinola pad col-md-10 col-md-offset-1">
@@ -167,16 +168,16 @@
 							<h3>See Percolate in Action</h3>
 							<p>See how Percolate can help you grow revenue and deliver better customer experiences</p>
 						</div>
-						<form class="form" method="POST" action="">
-							<div class="form-inline" action="">
-								<input id="FirstName" name="FirstName" placeholder="First Name" maxlength="255" type="text" >
-								<input id="LastName" name="LastName" placeholder="Last Name" maxlength="255" type="text" >
-								<input id="Phone" name="Phone" placeholder="Phone Number" maxlength="255" type="tel" >
+						<form class="form" method="POST" action="/percolate">
+							<div class="form-inline " action="">
+								<input class="input-lg" id="FirstName" name="FirstName" placeholder="First Name" maxlength="255" type="text" >
+								<input class="input-lg" id="LastName" name="LastName" placeholder="Last Name" maxlength="255" type="text" >
+								<input class="input-lg" id="Phone" name="Phone" placeholder="Phone Number" maxlength="255" type="tel" >
 							</div>
 							<div class="form-inline" action="">
-								<input id="Email" name="Email" placeholder="Company Email" maxlength="255" type="email" >
-								<input id="Company" name="Company" placeholder="Company" maxlength="255" type="text" >
-								<select name="Job_Function" id="Job_Function" >
+								<input class="input-lg" id="Email" name="Email" placeholder="Company Email" maxlength="255" type="email" >
+								<input class="input-lg" id="Company" name="Company" placeholder="Company" maxlength="255" type="text" >
+								<select class="input-lg"name="Job_Function" id="Job_Function" >
 									<option value="">Job Function</option>
 									<option value="Marketing Associate">Marketing Associate</option>
 									<option value="Marketing Manager">Marketing Manager</option>
@@ -284,13 +285,13 @@
 			</div>
 
 			<div class="secondary-nav row"> <!-- start of secondary nav -->
-				<div class="footer-logo col-md-4 col-md-pull-8">
+				<div class="footer-logo col-md-4">
 					<a href="#">
 						<img src="https://percolate.com/static/images/logo_white.png">
 					</a>
 				</div>
 
-				<nav class="footer-nav col-md-8 col-md-push-4">
+				<nav class="footer-nav col-md-8">
 					<ul>
 						<li><a href="https://percolate.com/terms">Terms of Service</a></li>
             <li><a href="https://percolate.com/privacy">Privacy</a></li>

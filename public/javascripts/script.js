@@ -13,7 +13,7 @@ $(document).ready(function(){
 		// process form
 		$.ajax({
 			type						: 'POST',
-			url							: 'oops', // url where we want to post
+			url							: form.action, // url where we want to post
 			data						: formData,
 			dataType				: 'json',
 			encode					: true
@@ -29,5 +29,5 @@ $(document).ready(function(){
 		// stop the form from submitting the normal way and refreshing the page
 		event.preventDefault();
 	});
-	
+
 });

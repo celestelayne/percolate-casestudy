@@ -19,7 +19,7 @@
 	/*---------->>> BASE STYLES <<<----------*/
 	
 	/* Desktop */
-  @media screen and (min-width: 980px) {
+  @media screen and (min-width: 768px) {
     	body {
       	background: #f2f2f2;
     	}
@@ -38,14 +38,17 @@
   	}
 	
 	/* Tablet */
-  @media only screen and (max-width: 768px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     	body {
       	background: #FFF;
     	}
 
+    	.case-study-section {
+    		width: 50%;
+    	}
+
 	   .footer-nav {
 				text-align: center;
-				float: none;
 			}
 
 			.footer-nav ul {
@@ -53,8 +56,8 @@
 			}
 
 			.footer-logo {
+				/*float: right;*/
 				text-align: center;
-				float: none;
 			}
 
   }
@@ -63,21 +66,7 @@
   @media only screen and (max-width: 480px) {
     	body {
       	background: #FFF;
-    	}
-
-    	.footer-nav {
-				/*text-align: center;*/
-				float: none;
-			}
-
-			.footer-nav ul {
-				line-height: 1.5em;
-			}
-
-			.footer-logo {
-				/*text-align: center;*/
-				float: none;
-			}
+    }
   }
 
   /*--------------------
@@ -200,6 +189,10 @@
 	    border-color: #F16421;
 	}
 
+	#percolate-navbar-collapse {
+		background-color: #FFF;
+	}
+
 	/*---------->>> CONTENT SECTION <<<----------*/
 	
 	/*   Hero Container   */
@@ -270,7 +263,7 @@
 	}
 
 	/*   Case Study Container   */
-
+	
 	.case-study-section {
     /*position: relative;*/
 	}
@@ -436,7 +429,7 @@
 	}
 
 	.footer-logo {
-		float: left;
+		/*float: left;*/
 		margin-top: 20px;
 	}
 
